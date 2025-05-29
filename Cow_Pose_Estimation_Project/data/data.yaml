@@ -1,0 +1,15 @@
+# YOLOv8 dataset config
+path: ./data # relative path to processed data
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Classes
+nc: 7
+names: ['RaisingTail', 'RestingChin', 'StandingToBeMounted', 'SwollenVulva', 'TurningTheHead', 'VaginalFluid', 'cow']
+
+roboflow:
+  workspace: mllearner-qcdkx
+  project: cowdevproject
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mllearner-qcdkx/cowdevproject/dataset/1  cd "f:\srDEVproject3\Cow_Pose_Estimation_Project"; python setup.py  cd "f:\srDEVproject3\Cow_Pose_Estimation_Project"; tree /f
